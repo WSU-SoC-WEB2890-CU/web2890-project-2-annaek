@@ -1,5 +1,5 @@
-@use '../custom'as *;
-@use '../components/mixins'as *;
+@use '../custom' as *;
+@use '../components/mixins' as *;
 
 
 .bai-difference {
@@ -11,17 +11,19 @@
 
     @include media-breakpoint-up(lg) {
         margin: 2em 1em;
+
         .row {
             width: 100%;
             margin-left: 0 !important;
             margin-right: 0 !important;
         }
-    
+
     }
 
 
     @include media-breakpoint-down(sm) {
         margin: 1em 1em;
+
         .row {
             width: 100%;
             margin-left: 0px !important;

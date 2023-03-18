@@ -1,13 +1,14 @@
-@use '../custom'as *;
-@use '../components/mixins'as *;
+@use '../custom' as *;
+@use '../components/mixins' as *;
 
 
 .menu {
     background-color: $gray;
     font-family: 'Titillium Web', sans-serif;
-    .navbar-nav{
-        .nav-item{
-            .nav-link{
+
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
                 text-align: center;
                 color: $black;
                 font-weight: 600;
@@ -16,7 +17,8 @@
                 letter-spacing: 1px;
                 padding: 0.5rem 0.9rem;
                 transition: all 0.3s ease-in-out;
-                &:hover{
+
+                &:hover {
                     color: $secondary;
                 }
             }
@@ -37,7 +39,7 @@
         }
     }
 
-    .navbar-brand{
+    .navbar-brand {
         .img {
             width: 80px;
             height: 100px;
@@ -46,8 +48,9 @@
         @include media-breakpoint-down(sm) {
             .img {
                 width: 50px;
-                
+
             }
+
             padding-bottom: 5%;
         }
     }

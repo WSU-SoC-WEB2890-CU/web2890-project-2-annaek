@@ -1,5 +1,5 @@
-@use '../custom'as *;
-@use '../components/mixins'as *;
+@use '../custom' as *;
+@use '../components/mixins' as *;
 
 
 .footer {
@@ -17,7 +17,7 @@
     }
 
     .contact {
-        i { 
+        i {
             color: $secondary;
         }
     }
@@ -44,7 +44,7 @@
         margin-bottom: 0.2rem;
     }
 
-    a { 
+    a {
         color: $white;
         text-decoration: none;
         transition: all 0.3s ease-in-out;
@@ -60,12 +60,12 @@
         margin-bottom: 1rem;
         margin-top: 1rem;
         margin-left: 50px;
-     
+
         .social-icon {
             color: $white;
             font-size: 1.5rem;
             transition: all 0.3s ease-in-out;
-    
+
             &:hover {
                 color: $secondary;
                 transition: all 0.3s ease-in-out;
@@ -85,6 +85,7 @@
     @include media-breakpoint-down(sm) {
         padding: 3rem 0 3rem 0;
         text-align: center;
+
         img {
             width: 60%;
         }
@@ -93,11 +94,10 @@
     @include media-breakpoint-down(md) {
         padding: 3rem 0 3rem 0;
         text-align: center;
+
         img {
             width: 60%;
         }
     }
 
 }
-
-

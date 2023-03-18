@@ -1,5 +1,5 @@
-@use '../custom'as *;
-@use '../components/mixins'as *;
+@use '../custom' as *;
+@use '../components/mixins' as *;
 
 
 .who-we-are {
@@ -20,6 +20,7 @@
             font-size: 1.2rem;
             font-weight: 700;
             font-family: 'Bai Jamjuree', sans-serif;
+
             @include media-breakpoint-down(sm) {
                 font-size: 0.9rem;
             }
