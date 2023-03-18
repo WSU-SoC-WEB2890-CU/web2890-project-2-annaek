@@ -18,11 +18,45 @@
         li {
             margin-bottom: 1rem;
             font-size: 1.2rem;
-            font-weight: 600;
+            font-weight: 700;
             font-family: 'Bai Jamjuree', sans-serif;
             @include media-breakpoint-down(sm) {
-                font-size: 1rem;
+                font-size: 0.9rem;
+            }
+
+            @include media-breakpoint-down(md) {
+                font-size: 0.9rem;
             }
         }
     }
+
+    .btn {
+
+        @include media-breakpoint-down(sm) {
+            font-size: 0.8rem;
+            text-align: center;
+            align-items: center;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        .btn3 {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            align-items: center;
+        }
+
+    }
+
+    @include media-breakpoint-up(lg) {
+        .btn3 {
+            align-items: start;
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+            margin-left: -20px;
+        }
+
+    }
+
 }
