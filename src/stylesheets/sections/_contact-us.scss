@@ -1,1 +1,46 @@
 @use '../custom'as *;
+@use '../components/mixins'as *;
+
+.contact-us {
+    margin: 7rem 4rem;
+
+    .contact-content {
+        padding: 1rem 1rem 1rem 1rem;
+        // color: $black;
+        // font-family: 'Titillium Web', sans-serif;
+        // font-weight: 500;
+        // font-size: 1.2rem;
+        // letter-spacing: 0.1rem;
+        // line-height: 1.5rem;
+
+    }
+
+    .contact-background {
+        background-color: $gray;
+        margin: 0 0 0 0;
+    }
+
+    form {
+        margin: 0 0 0 0;
+
+        .form-group {
+            margin: 0 0 0 0;
+        }
+
+        .form-control {
+            background-color: $white;
+            border: 1px solid $black;
+            border-radius: 0;
+            color: $black;
+            font-family: 'Titillium Web', sans-serif;
+            font-weight: 500;
+            font-size: 1.2rem;
+            letter-spacing: 0.1rem;
+            line-height: 1rem;
+            padding: 1rem 1rem 1rem 1rem;
+            margin: 0 0 0 0;
+        }
+    }
+
+ 
+}
