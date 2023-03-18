@@ -1,1 +1,37 @@
 @use '../custom'as *;
+@use '../components/mixins'as *;
+
+
+
+.about-us {
+    margin: 7rem 4rem;
+
+
+    .methods {
+        color: $secondary;
+    }
+    
+    .our-list {
+        list-style-type: none;
+        margin: 1rem 1rem;
+
+      }
+        .our-list > li {
+            text-indent: -40px;
+        }
+        .our-list > li:before {
+            content: "-";
+            text-indent: -20px;
+            padding-right: 10px;
+        }
+
+        .list-text {
+                font-weight: 600;
+            }
+
+
+            @include media-breakpoint-down(sm) {
+                margin: 10rem 1rem;
+            }
+
+}

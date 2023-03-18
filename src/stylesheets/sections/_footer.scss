@@ -16,6 +16,16 @@
         margin-bottom: 1rem;
     }
 
+    .contact {
+        i { 
+            color: $secondary;
+        }
+    }
+
+    .quick-links {
+        text-transform: uppercase;
+    }
+
 
     img {
         width: 60%;
@@ -29,7 +39,7 @@
 
     li {
         font-family: 'Bai Jamjuree', sans-serif;
-        font-size: 1.1rem;
+        font-size: 1rem;
         color: $white;
         margin-bottom: 0.2rem;
     }
