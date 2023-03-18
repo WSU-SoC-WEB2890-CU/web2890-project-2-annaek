@@ -1,0 +1,44 @@
+@use '../custom'as *;
+@use '../components/mixins'as *;
+
+
+.bai-difference {
+    margin: 4em 3em;
+
+    .row {
+        margin: 2rem 2rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+        margin: 2em 1em;
+        .row {
+            width: 100%;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+    
+    }
+
+
+    @include media-breakpoint-down(sm) {
+        margin: 1em 1em;
+        .row {
+            width: 100%;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+        }
+
+        .bai-content {
+            padding: 1em 1em;
+        }
+
+        .text-end {
+            text-align: left !important;
+        }
+    }
+
+    .bai-content {
+        padding: 0 2em 2em 1em;
+    }
+
+}

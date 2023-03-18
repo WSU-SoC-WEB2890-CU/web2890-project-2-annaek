@@ -1,0 +1,21 @@
+//THEME COLORS
+$black: #000000;
+$dark-blue: #03234B;
+$blue: #003980;
+$light-blue: #CFE5FF;
+$white: #FFFFFF;
+$gray: #ECECEC;
+$red: #B22222;
+
+
+
+
+$primary: $blue;
+$secondary: $red;
+
+
+
+
+//IMPORT BOOTSTRAP
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.scss";

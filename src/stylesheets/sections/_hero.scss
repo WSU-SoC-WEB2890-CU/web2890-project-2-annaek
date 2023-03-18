@@ -1,0 +1,39 @@
+@use '../custom'as *;
+@use '../components/mixins'as *;
+
+
+.hero {
+    font-family: 'Bai Jamjuree', sans-serif;
+    background: url('../images/hero.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: $white;
+    padding: 0 1em;
+    margin: 0 auto;
+    overflow: hidden;
+
+    @include media-breakpoint-down(sm) {
+        height: 100vh;
+    }
+
+    @include media-breakpoint-down(xs) {
+        height: 100vh;
+    }
+
+
+    .redefined-color {
+        color: $secondary;
+    }
+
+    
+
+}
+

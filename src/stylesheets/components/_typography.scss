@@ -1,0 +1,117 @@
+@use '../custom'as *;
+@use '../components/mixins'as *;
+
+.display-2 {
+    text-transform: capitalize;
+    font-family: 'Bai Jamjuree', sans-serif; 
+
+    &--intro {
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        display: inline-block;
+        font-weight: 700;
+        font-family: 'Bai Jamjuree', sans-serif;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+        @include media-breakpoint-down(sm) {
+            font-size: 2.5rem;
+        }
+    }
+
+    &--description {
+        font-size: 2rem;
+        font-weight: 500;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 4rem;
+        text-transform: none;
+
+       @include media-breakpoint-down(sm) {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+.display-3 {
+    margin-bottom: 3rem;
+    
+
+    &--title {
+        color: $primary;
+        font-weight: 700;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+        text-align: center;
+        font-family: 'Bai Jamjuree', sans-serif;
+        @include media-breakpoint-down(sm) {
+            font-size: 2rem;
+        }
+    }
+
+
+    &--description {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 3rem;
+        text-transform: none;
+        text-align: center;
+        font-family: 'Bai Jamjuree', sans-serif;
+        @include media-breakpoint-down(sm) {
+            font-size: 1rem;
+        }
+    }
+
+
+}
+
+
+.display-4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    text-transform: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+
+    &--title {
+        color: $primary;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+
+        @include media-breakpoint-down(sm) {
+            margin-top: 1rem;
+        }
+    }
+
+    &--subtitle {
+        font-size: 1rem;
+        color: $secondary;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 1.5rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1rem;
+    }
+}
+
+.bai-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    text-transform: none;
+    font-family: 'Poppins', sans-serif;
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+    }
+}

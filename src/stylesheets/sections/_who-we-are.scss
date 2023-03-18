@@ -1,0 +1,28 @@
+@use '../custom'as *;
+@use '../components/mixins'as *;
+
+
+.who-we-are {
+    .bai-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+
+        @include media-breakpoint-down(sm) {
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            font-family: 'Bai Jamjuree', sans-serif;
+            @include media-breakpoint-down(sm) {
+                font-size: 1rem;
+            }
+        }
+    }
+}
