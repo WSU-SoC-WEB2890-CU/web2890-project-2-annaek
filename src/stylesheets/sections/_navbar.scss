@@ -56,14 +56,13 @@
     }
 
 
-    .nav-link.active {
-        color: $secondary;
-    }
-
-
     .btn1 {
         @include media-breakpoint-up(md) {
             margin-left: 2rem;
         }
+    }
+
+    .active {
+        color: $secondary !important;
     }
 }
