@@ -1,13 +1,13 @@
-@use '../custom'as *;
-@use '../components/mixins'as *;
+@use '../custom' as *;
+@use '../components/mixins' as *;
 
 
 .btn {
     color: $white;
     cursor: pointer;
-    font-size:0.9rem;
+    font-size: 0.9rem;
     font-family: 'Titillium Web', sans-serif;
-    font-weight: 500; 
+    font-weight: 500;
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
@@ -17,12 +17,12 @@
 
     @include media-breakpoint-down(sm) {
         margin: 1em 0 0 4em;
-        
+
     }
 
     @include media-breakpoint-down(xs) {
         margin: 1em 0 0 2em;
-       
+
     }
 
 }
@@ -46,18 +46,18 @@
         visibility: hidden;
     }
 
-  } 
-  
-  .btn1:hover {
+}
+
+.btn1:hover {
     border: 1px solid;
     box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.2);
     outline-color: rgba(167, 167, 167, 0);
     outline-offset: 15px;
-    text-shadow: 1px 1px 2px #090f13; 
-  }
+    text-shadow: 1px 1px 2px #090f13;
+}
 
 
-  .btn2 {
+.btn2 {
     font-size: 1.2rem !important;
     max-width: 20rem;
     border: 0 solid;
@@ -77,27 +77,23 @@
         width: 220px;
         font-size: 0.6rem;
     }
-  }
+}
 
-    .btn2:hover {
-        border: 1px solid;
-        box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.2);
-        outline-color: rgba(167, 167, 167, 0);
-        outline-offset: 15px;
-        text-shadow: 1px 1px 2px #090f13; 
-    }
+.btn2:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.2);
+    outline-color: rgba(167, 167, 167, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #090f13;
+}
 
-    .btn-links {
+.btn-links {
+    text-decoration: none;
+    color: $white;
+
+    a:visited,
+    a:active {
         text-decoration: none;
         color: $white;
-        a:visited, a:active {
-            text-decoration: none;
-            color: $white;
-        }
     }
-    
-    // a:visited, a:active {
-    //     text-decoration: none;
-    //     color: $white;
-    // }
-
+}

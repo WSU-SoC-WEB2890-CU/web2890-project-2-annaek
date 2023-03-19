@@ -18,13 +18,14 @@
         @include media-breakpoint-up(md) {
             font-size: 1rem;
             display: inline;
-         
+
         }
 
     }
 
     .our-list>li {
         text-indent: -40px;
+
         @include media-breakpoint-up(md) {
             text-indent: 0;
         }
