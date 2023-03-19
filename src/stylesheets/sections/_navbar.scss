@@ -33,7 +33,7 @@
             @include media-breakpoint-down(md) {
                 .nav-link {
                     padding: 0.3rem 0.5rem;
-                    font-size: 1.5rem;
+                    font-size: 2rem;
                 }
             }
         }
@@ -58,5 +58,12 @@
 
     .nav-link.active {
         color: $secondary;
+    }
+
+
+    .btn1 {
+        @include media-breakpoint-up(md) {
+            margin-left: 2rem;
+        }
     }
 }

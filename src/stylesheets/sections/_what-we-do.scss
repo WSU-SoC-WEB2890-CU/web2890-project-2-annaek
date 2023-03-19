@@ -32,7 +32,6 @@
             padding: 1rem;
             text-align: center;
             transition: all 0.3s ease-in-out;
-            width: 100%;
 
 
             &:hover {
@@ -52,8 +51,8 @@
                     font-size: 0.7rem;
                 }
 
-                @include media-breakpoint-down(md) {
-                    font-size: 1rem;
+                @include media-breakpoint-up(md) {
+                    font-size: 1.5rem;
                 }
             }
 
@@ -69,8 +68,8 @@
                     font-size: 0.5rem;
                 }
 
-                @include media-breakpoint-down(md) {
-                    font-size: 0.8rem;
+                @include media-breakpoint-up(md) {
+                    font-size: 1rem;
                 }
 
             }
