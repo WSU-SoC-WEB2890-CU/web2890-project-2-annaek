@@ -90,11 +90,42 @@
         }
     }
 
+    .input-group mb-3 {
+        height: 50px;
+
+        
+    }
+
     .btn {
         color: $white;
+        margin-top: 0;
+        height: 50px;
+        border: 0;
+        margin: 0;
 
         @include media-breakpoint-down(sm) {
             width: 12rem;
+            height: 50px;
+        }
+    }
+
+    .btn2 {
+        outline: none;
+    }
+    .form-control {
+        height: 50px;
+        background-color: $white;
+        border: 1px solid $white;
+        color: $white;
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 0.9rem;
+        transition: all 0.3s ease-in-out;
+
+        &:focus {
+            background-color: $dark-blue;
+            border: 1px solid $secondary;
+            color: $white;
+            transition: all 0.3s ease-in-out;
         }
     }
 
