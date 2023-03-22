@@ -65,6 +65,18 @@
 
     .btn {
         margin-bottom: 1rem;
+        
     }
 
+    @include media-breakpoint-up(md) {
+        .btn1 {
+            margin-left: 40%;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        .btn1 {
+            margin-left: 0;
+        }
+    }
 }
