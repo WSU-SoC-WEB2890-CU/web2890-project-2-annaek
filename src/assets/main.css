@@ -18359,6 +18359,771 @@ textarea.form-control-lg {
   content: "\f793";
 }
 
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active1 {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.btn {
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 500;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #B22222 !important;
+  border: 1px solid #B22222;
+}
+@media (max-width: 575.98px) {
+  .btn {
+    margin: 0;
+  }
+}
+
+.btn1 {
+  max-width: 140px;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: #B22222;
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  margin-top: 0.5rem;
+}
+@media (max-width: 575.98px) {
+  .btn1 {
+    visibility: hidden;
+  }
+}
+
+.btn1:hover {
+  border: 1px solid #B22222;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.2);
+  outline-color: rgba(167, 167, 167, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #090f13;
+}
+
+.btn2 {
+  font-size: 1.2rem !important;
+  max-width: 20rem;
+  border: 0 solid #B22222;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: #B22222;
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+@media (max-width: 767.98px) {
+  .btn2 {
+    padding-right: 5%;
+  }
+}
+@media (max-width: 575.98px) {
+  .btn2 {
+    padding-right: 5%;
+    width: 220px;
+    font-size: 0.6rem;
+  }
+}
+
+.btn2:hover {
+  border: 1px solid #B22222;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.2);
+  outline-color: rgba(167, 167, 167, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #090f13;
+}
+
+.btn-links {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.btn-links a:visited,
+.btn-links a:active {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.btn-secondary {
+  border: 1px solid #B22222 !important;
+  border-radius: 5%;
+}
+
+.display-2 {
+  text-transform: capitalize;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.display-2--intro {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 700;
+  font-family: "Bai Jamjuree", sans-serif;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 575.98px) {
+  .display-2--intro {
+    font-size: 2.5rem;
+  }
+}
+.display-2--description {
+  font-size: 2rem;
+  font-weight: 500;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 4rem;
+  text-transform: none;
+}
+@media (max-width: 575.98px) {
+  .display-2--description {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .display-2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+.display-3 {
+  margin-bottom: 3rem;
+}
+.display-3--title {
+  color: #003980;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+@media (max-width: 575.98px) {
+  .display-3--title {
+    font-size: 2rem;
+  }
+}
+.display-3--description {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+  text-transform: none;
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+@media (max-width: 575.98px) {
+  .display-3--description {
+    font-size: 1.1rem;
+  }
+}
+
+.display-4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+  text-transform: none;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.display-4--title {
+  color: #003980;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 575.98px) {
+  .display-4--title {
+    margin-top: 1rem;
+  }
+}
+.display-4--subtitle {
+  font-size: 1rem;
+  color: #B22222;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+@media (max-width: 575.98px) {
+  .display-4 {
+    font-size: 1rem;
+  }
+}
+
+.bai-text {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  text-transform: none;
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 575.98px) {
+  .bai-text {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.menu {
+  background-color: #ECECEC;
+  font-family: "Titillium Web", sans-serif;
+}
+.menu .navbar-nav .nav-item .nav-link {
+  text-align: center;
+  color: #000000;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.5rem 0.9rem;
+  transition: all 0.3s ease-in-out;
+}
+.menu .navbar-nav .nav-item .nav-link:hover {
+  color: #B22222;
+}
+@media (max-width: 575.98px) {
+  .menu .navbar-nav .nav-item .nav-link {
+    padding: 0.5rem 0.9rem;
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .menu .navbar-nav .nav-item .nav-link {
+    padding: 0.3rem 0.5rem;
+    font-size: 1.5rem;
+  }
+}
+.menu .navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+.menu .navbar-brand .nav-logo {
+  width: 95%;
+  height: 100%;
+}
+@media (max-width: 575.98px) {
+  .menu .navbar-brand {
+    width: 70%;
+    padding-bottom: 5%;
+  }
+  .menu .navbar-brand .nav-logo {
+    width: 100%;
+    height: 100%;
+  }
+}
+.menu .active {
+  color: #B22222 !important;
+}
+.menu .btn {
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .menu .btn1 {
+    margin-left: 40%;
+  }
+}
+@media (min-width: 992px) {
+  .menu .btn1 {
+    margin-left: 0;
+  }
+}
+
+.hero {
+  font-family: "Bai Jamjuree", sans-serif;
+  background: url("../images/hero.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 0 1em;
+  margin: 0 auto;
+  overflow: hidden;
+  height: 100vh;
+}
+@media (max-width: 575.98px) {
+  .hero {
+    height: 100vh;
+  }
+}
+.hero .redefined-color {
+  color: #B22222;
+}
+
+.bai-difference {
+  margin: 4em 3em;
+}
+.bai-difference .row {
+  margin: 2rem 2rem;
+}
+@media (min-width: 992px) {
+  .bai-difference {
+    margin: 2em 1em;
+  }
+  .bai-difference .row {
+    width: 100%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .bai-difference {
+    margin: 1em 1em;
+  }
+  .bai-difference .row {
+    width: 100%;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .bai-difference .bai-content {
+    padding: 1em 1em;
+  }
+  .bai-difference .text-end {
+    text-align: left !important;
+  }
+}
+.bai-difference .bai-content {
+  padding: 0 2em 2em 1em;
+}
+
+.what-we-do {
+  margin-bottom: 4rem;
+}
+.what-we-do .cards {
+  margin-bottom: 3em;
+}
+@media (max-width: 575.98px) {
+  .what-we-do .cards {
+    padding: 3rem;
+    margin-bottom: 1em;
+  }
+}
+.what-we-do .cards .card {
+  height: 100px;
+  background-color: #CFE5FF;
+  border-radius: 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+@media (max-width: 575.98px) {
+  .what-we-do .cards .card {
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .what-we-do .cards .card {
+    margin-bottom: 1rem;
+  }
+}
+.what-we-do .cards .card:hover {
+  transform: scale(1.1);
+  transition: all linear 200ms;
+  z-index: 1;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.what-we-do .cards .card .card-icon {
+  color: #003980;
+  font-size: 2rem;
+  padding-right: 5px;
+}
+@media (max-width: 575.98px) {
+  .what-we-do .cards .card .card-icon {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .what-we-do .cards .card .card-icon {
+    font-size: 1.5rem;
+  }
+}
+.what-we-do .cards .card .card-title {
+  color: #003980;
+  font-size: 0.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  text-align: start;
+}
+@media (max-width: 575.98px) {
+  .what-we-do .cards .card .card-title {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 768px) {
+  .what-we-do .cards .card .card-title {
+    font-size: 1rem;
+  }
+}
+.what-we-do .cards .card span {
+  margin-right: 5px;
+}
+
+.who-we-are .bai-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+@media (max-width: 575.98px) {
+  .who-we-are .bai-list {
+    margin-bottom: 1rem;
+  }
+}
+.who-we-are .bai-list li {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+@media (max-width: 575.98px) {
+  .who-we-are .bai-list li {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .who-we-are .bai-list li {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .who-we-are .btn {
+    font-size: 0.8rem;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .who-we-are .btn3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media (min-width: 992px) {
+  .who-we-are .btn3 {
+    align-items: start;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.about-us {
+  margin: 7rem 4rem;
+}
+.about-us .methods {
+  color: #B22222;
+}
+.about-us .our-list {
+  list-style-type: none;
+  margin: 1rem 1rem;
+}
+@media (min-width: 768px) {
+  .about-us .our-list {
+    font-size: 1rem;
+    display: inline;
+  }
+}
+.about-us .our-list > li {
+  text-indent: -40px;
+}
+@media (min-width: 768px) {
+  .about-us .our-list > li {
+    text-indent: 0;
+  }
+}
+.about-us .our-list > li:before {
+  content: "-";
+  text-indent: -20px;
+  padding-right: 10px;
+}
+@media (min-width: 768px) {
+  .about-us .our-list > li:before {
+    content: "";
+    text-indent: 0;
+    padding-right: 0;
+  }
+}
+.about-us .list-text {
+  font-weight: 600;
+}
+@media (max-width: 575.98px) {
+  .about-us {
+    margin: 10rem 1rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .about-us .btn {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 768px) {
+  .about-us .btn3 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media (min-width: 992px) {
+  .about-us .btn3 {
+    align-items: start;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: -20px;
+  }
+}
+@media (max-width: 575.98px) {
+  .about-us .btn3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+.contact-us {
+  margin: 7rem 4rem;
+}
+.contact-us .contact-content {
+  padding: 1rem 1rem 1rem 1rem;
+}
+.contact-us .contact-background {
+  background-color: #ECECEC;
+  padding: 0;
+}
+.contact-us form {
+  margin: 0 0 0 3rem;
+}
+@media (max-width: 575.98px) {
+  .contact-us form {
+    margin: 0;
+  }
+}
+@media (min-width: 768px) {
+  .contact-us form {
+    margin: 0;
+  }
+}
+.contact-us form .form-control {
+  width: 80%;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 0;
+  color: #000000;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 0.8rem;
+  padding: 1rem 1rem 1rem 1rem;
+  margin: 0 0 0 0;
+}
+@media (max-width: 575.98px) {
+  .contact-us form .form-control {
+    width: 100%;
+    padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+    margin: 0;
+  }
+}
+@media (min-width: 768px) {
+  .contact-us form .form-control {
+    width: 100%;
+    padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+    margin: 0;
+  }
+}
+.contact-us form .form-text {
+  height: 8rem;
+}
+.contact-us .btn-about-us {
+  margin-top: 4rem;
+  margin-left: 3rem;
+}
+@media (min-width: 768px) {
+  .contact-us .btn-about-us {
+    margin-top: 2rem;
+    text-align: center;
+  }
+}
+@media (max-width: 575.98px) {
+  .contact-us .btn-about-us {
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .contact-us .btn-about-us {
+    text-align: center;
+    margin-left: 17rem;
+  }
+}
+.contact-us img {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 575.98px) {
+  .contact-us {
+    margin: 10rem 1rem;
+    align-items: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .contact-us {
+    display: block !important;
+    flex: none !important;
+  }
+}
+
+.footer {
+  background-color: #03234B;
+  color: #FFFFFF;
+  padding: 3rem 0;
+  margin-top: 3rem;
+}
+.footer .footer-title {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 1rem;
+}
+.footer .contact i {
+  color: #B22222;
+}
+.footer .quick-links {
+  text-transform: uppercase;
+}
+.footer img {
+  width: 60%;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer li {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1rem;
+  color: #FFFFFF;
+  margin-bottom: 0.2rem;
+}
+.footer a {
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.footer a:hover {
+  color: #B22222;
+  transition: all 0.3s ease-in-out;
+}
+.footer .social-icons {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-left: 50px;
+}
+.footer .social-icons .social-icon {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+.footer .social-icons .social-icon:hover {
+  color: #B22222;
+  transition: all 0.3s ease-in-out;
+}
+@media (max-width: 575.98px) {
+  .footer .social-icons .social-icon {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer .social-icons {
+    margin-left: 0;
+  }
+}
+.footer i {
+  font-size: 1.4rem;
+  padding-right: 1rem;
+}
+@media (max-width: 575.98px) {
+  .footer i {
+    font-size: 1.4rem;
+    padding-right: 0.5rem;
+  }
+}
+.footer .input-group mb-3 {
+  height: 50px;
+}
+.footer .btn {
+  color: #FFFFFF;
+  margin-top: 0;
+  height: 50px;
+  border: 0;
+  margin: 0;
+}
+@media (max-width: 575.98px) {
+  .footer .btn {
+    width: 12rem;
+    height: 50px;
+  }
+}
+.footer .btn2 {
+  outline: none;
+}
+.footer .form-control {
+  height: 50px;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 0.9rem;
+  transition: all 0.3s ease-in-out;
+}
+.footer .form-control:focus {
+  background-color: #03234B;
+  border: 1px solid #B22222;
+  color: #FFFFFF;
+  transition: all 0.3s ease-in-out;
+}
+@media (max-width: 575.98px) {
+  .footer {
+    padding: 3rem 0 3rem 0;
+    text-align: center;
+  }
+  .footer img {
+    width: 60%;
+  }
+}
+@media (max-width: 767.98px) {
+  .footer {
+    padding: 3rem 0 3rem 0;
+    text-align: center;
+  }
+  .footer img {
+    width: 60%;
+  }
+}
+
 /* Your styles go here */
 
 /*# sourceMappingURL=main.css.map */
