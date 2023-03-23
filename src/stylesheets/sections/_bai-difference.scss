@@ -37,6 +37,11 @@
         .text-end {
             text-align: left !important;
         }
+
+        .max-roi {
+            display: flex;
+            flex-direction: column-reverse;
+        }
     }
 
     .bai-content {

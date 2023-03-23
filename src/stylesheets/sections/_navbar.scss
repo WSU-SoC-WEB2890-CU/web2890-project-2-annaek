@@ -72,6 +72,10 @@
         .btn1 {
             margin-left: 40%;
         }
+
+        .collapse:not(.show) {
+            display: none;
+        }
     }
 
     @include media-breakpoint-up(lg) {

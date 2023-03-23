@@ -109,6 +109,7 @@
     margin-bottom: 1.5rem;
     text-transform: none;
     font-family: 'Poppins', sans-serif;
+    text-align: start;
 
     @include media-breakpoint-down(sm) {
         font-size: 1rem;
